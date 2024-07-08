@@ -7,8 +7,8 @@ import jwt
 from functools import wraps
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ronnyohawa_user:h6EDTJWzh8n0hdVfSOyaNOcjJfEmG7B7@dpg-cq5gfruehbks73bouokg-a.oregon-postgres.render.com/ronnyohawa'
+app.config['SECRET_KEY'] = 'fjdjvhkjcdvhjkdjhgdhudgdubjinhvbjkhbjncbdhnhbnjv'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:RolnESUCsEEMvlPrnEVnbsdYfapcKxzh@monorail.proxy.rlwy.net:17844/railway'
 db = SQLAlchemy(app)
 
 class User(db.Model):
